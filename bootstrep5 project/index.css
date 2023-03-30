@@ -1,0 +1,283 @@
+.main{
+  background-color: rgb(244, 232, 228);
+}
+
+.main-list ul li a{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.v1 a{
+ text-decoration: none;
+ color: #FE5F41;
+}
+
+.v1 a:hover{
+  text-decoration: underline;
+  transition: all 1s;
+  color: #FE5F41;
+}
+.b1{
+    background-color: #FE5F41;
+    width: 200px;
+    color: white;
+    border-radius: 40px;
+} 
+.b1:hover{
+  color: black;
+  background-color: #FE5F41;
+}
+
+.b6:hover{
+  background-color: #FE5F41;
+}
+
+.slider{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 232, 228);
+}
+.caption{
+  color: #4D312C;
+  width: 50%; 
+  height: 500px;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+.b3{
+  background-color: #FE5F41;
+  color: white;
+  border-radius: 30px;
+  width: 120px;
+  height: 50px;
+  font-weight: 700;
+}
+.b2{
+  color: #FE5F41;
+}
+.slider_img img{
+   width: 100%;
+   float: right;
+   height: 500px;
+}
+.section_title {
+    color: #4D312C;
+    padding-top: 30px;
+}
+.section_title h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.section_title p{
+    font: 15px;
+}
+
+  .c1{
+   padding-left: 10px;
+   height: auto;
+   padding-top: 40px;
+     
+}
+
+.box2{
+  padding-top: 40px;
+}
+
+.single_service{  
+  border: 2px solid black;
+  border-color: gray;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.single_service:hover{
+  box-shadow: 0px 8px 16px 0px;
+  color: #FE5F41;
+  border: none;
+}
+.single_service:hover a{
+  color: #FE5F41; 
+}
+.service_icon img{
+  padding-top: 20px;
+}
+.service_cap h5{
+  padding-top: 18px;
+}
+.service_cap h5 a{
+  text-decoration: none;
+  color: black;
+}
+.service_cap p{
+  padding-top: 15px;
+  width: 90%;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 20px;
+}
+
+.s1{
+ background-color: #4D312C;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat  ;
+  box-sizing: border-box;
+}
+.section_title2{
+  color: white;
+}
+
+
+.box3{
+  padding-top: 5%;
+  padding-left: 13%;
+}
+.b4{
+  background-color: #FE5F41;
+  float: right;
+  border-radius: 50px;
+  margin-right: 15%;
+  margin-left: 150px; 
+}
+.b5{
+  height: 60px;
+  width: 150px;
+} 
+
+.b6{
+  color: aliceblue;
+  background-color: #FE5F41;
+  width: 150px;
+  height: 70px;
+  border-radius: 40px;
+  padding-top: 20px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.items{
+  padding-left: 12%;
+  padding-top: 20px;
+}
+.items a{
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.items a:hover {
+  color: #FE5F41;
+  text-underline-position: 20px;
+}
+.image{
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 20px;
+  height: 400px;
+  border-radius: 20px;
+}
+.image img{
+  height: 150px;
+  padding-top: 20px;
+}
+.image p{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sec{
+  display: flex;
+  height: 400px;
+  width: 400px;
+}
+.single_service1{  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+.service_icon1 img{
+  width: 40%;
+  padding-top: 10px;
+}
+.box4{
+  margin: 0px;
+  padding-top: 40px;
+}
+.form-wrapper input{
+  height: 50px;
+  width: 100%;
+  padding: 10px 25px;
+  padding-right: 30px;
+  color: #071112;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all .4s ease-out 0s;
+}
+select{
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  color: #071112;
+}
+option{
+  padding: 10px 25px;
+}
+
+.form-wrapper textarea{
+  height: 125px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 21px 23px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all .4s ease-out 0s;
+}
+.submit-btn {
+  width: 100%;
+  background: #FE5F41;
+  padding: 10px ;
+  font-weight: 500 !important;
+  border-radius: 35px;
+  transition: color 0.4s linear;
+  position: relative;
+  height: 40px;
+}
+.form-wrapper{
+  padding-top: 50px;
+}
+.three-honer{
+  padding-top: 40px;
+}
+.honer-area img{
+  height: 400px;
+  width: 100%;
+}
+.customer-section{
+  padding-top: 70px;
+  color: #4D312C;
+}
+.service_cap1 p{
+  padding-top: 20px;
+}
+.images1 img{
+width: 370px;
+}
+.footer-social i{
+  font-size: 30px; color: #FE5F41;
+}
+.footer-tittle{
+  color: gray;
+}
+.footer-tittle ul li a{
+  color: gray;
+}
+.footer-wrapper{
+
+  background-color:  rgb(244, 232, 228);
+}
