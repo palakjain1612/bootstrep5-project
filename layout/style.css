@@ -1,0 +1,563 @@
+
+
+.toggle{
+    display: none;
+}
+.main{
+   
+    height: 148px;
+}
+.img{
+    width: 142px;
+    height: 98px;
+   
+}
+.my-style ul li{
+    float: left;
+    display: inline;
+    
+}
+.my-style a{
+    font-size: 16px;
+    font-family: RNS Physis;
+    display: inline;
+    
+}
+.my-style img{
+    width: 41px;
+    height: 41px;
+}
+
+.my-style a:hover{
+    color: rgb(142, 207, 233);
+}
+/* .s1{
+    position: relative;
+    display: inline-block;
+} */
+.service{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    list-style: none;
+}
+.service:hover{
+    cursor: pointer;
+}
+
+.s1:hover .service{
+    display:block;
+    
+}
+.offcanvas-body .nav-link:hover{
+    color: rgb(142, 207, 233);
+}
+
+.my-style2{
+    padding-top: 20px;
+}
+.my-style2 img{
+   height: 30px;
+}
+.toggle button{
+    
+    border: none;
+   
+}
+
+.Banner{
+    display: block;
+    position: relative;
+    padding-top: 148px;
+    width: 100%;
+   
+}
+.carousel-item .p2{
+position: absolute;
+top: 559px;
+left: 254px;
+width: 591px;
+height: 63px;
+text-align: left;
+font: normal normal 300 22px/32px RNS Physis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.carousel-item img{
+position: relative;
+max-width: 100%;
+height: auto;
+opacity: 1;
+    background-image: url(images/Rectangle\ 3839.png);   
+    background-size: cover;
+    background-position: center center;    
+    background-attachment: scroll;
+     background-repeat: no-repeat;
+
+   
+ 
+}
+
+
+
+
+
+.carousel-item .p1{
+    width: 591px;
+    height: 146px;;
+    position: absolute;
+   top: 383px;
+   left: 254px;
+   text-align: left;
+font: normal normal 300 58px/66px RNS Physis;
+letter-spacing: -1.16px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.btn{
+    position: absolute;
+    color:  #FFFFFF;
+    top: 680px;
+left: 250px;
+width: 170px;
+height: 60px;
+background-color: #00A8F0;
+border: none;
+opacity: 1;
+transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    box-shadow: inset 170px  0 0 0 #40c1f8 ;
+    color: white;
+
+}
+/* .my-style2 p{
+    margin-left: 50px;
+} */
+
+
+
+
+@media screen and (max-width:1200px){
+    .my-style a {
+        font-size: 13px;
+    }
+    .img{
+        width: 100px;
+        height: 80px;
+       
+    }
+    .my-style1 img{
+        height: 40px;
+    }
+    .carousel-item .p1{
+        width: 400px;
+        height: 146px;;
+        position: absolute;
+       top: 170px;
+       left: 20px;
+       text-align: left;
+    font: normal normal 300 35px RNS Physis;
+    letter-spacing: -1.16px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+}
+
+    .carousel-item .p2{
+        position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    font: normal normal 100 20px RNS Physis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .btn{
+        position: absolute;
+        color:  #FFFFFF;
+        top: 400px;
+    left: 20px;
+    width: 170px;
+    height: 60px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    }    
+}
+@media screen and ( max-width:1024px) {
+    .toggle{
+        display: flex;
+        float: left;
+    }
+    
+    .my-style{
+        display: none;
+    }
+    .my-style1 div{
+        display: none;
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width:800px){
+    .carousel-item .p1{
+        width: 400px;
+        height: 0px;;
+        position: absolute;
+       top: 80px;
+       left: 20px;
+       text-align: left;
+    font: normal normal 300 35px RNS Physis;
+    letter-spacing: -1.16px;
+    color: #FFFFFF;
+    opacity: 1;
+  
+}
+
+    .carousel-item .p2{
+        position: absolute;
+    top: 190px;
+    left: 20px;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    font: normal normal 100 20px RNS Physis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .btn{
+        position: absolute;
+        color:  #FFFFFF;
+        top: 290px;
+    left: 20px;
+    width: 170px;
+    height: 60px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    }
+}
+
+@media screen and (max-width:600px){ 
+    .carousel-item .p1{
+        width: 400px;
+        height: 0px;;
+        position: absolute;
+       top: 60px;
+       left: 20px;
+       text-align: left;
+    font: normal normal 300 25px RNS Physis;
+    letter-spacing: 0.10px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: blue transparent;
+}
+
+    .carousel-item .p2{
+        position: absolute;
+    top: 140px;
+    left: 20px;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    font: normal normal 100 20px RNS Physis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .btn{
+        position: absolute;
+        color:  #FFFFFF;
+        top: 220px;
+    left: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    }
+}
+@media screen and (max-width:480px){
+    .carousel-item img{
+        position: relative;
+       max-width: 100%;
+       height: 300px;
+       opacity: 1;
+        background-image: url(images/Rectangle\ 3839.png);   
+           background-size: 100% 300px;
+            background-position: center center;    
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+    
+       
+     
+    }
+    .carousel-item .p1{
+        width: 300px;
+        height: 0px;;
+        position: absolute;
+       top: 50px;
+       left: 20px;
+       text-align: left;
+    font: normal normal 300 25px RNS Physis;
+    letter-spacing: 0.10px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: blue transparent;
+}
+
+    .carousel-item .p2{
+        position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+    font: normal normal 100 18px RNS Physis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    .btn{
+        font-size:10px;
+        position: absolute;
+        color:  #FFFFFF;
+        top: 210px;
+    left: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    }
+} 
+/* .welcome{
+   
+    height: 1152px;
+   
+ 
+  
+}
+.welcome-img{ 
+    width: 100%;
+    height: 600px;
+   
+    position: absolute;
+    top: 1190px;
+    background-image: url(images/Rectangle\ 4303.png);
+    background-repeat: no-repeat;
+    background-size: 1192px;
+    background-position: center center;
+    background-attachment: scroll;
+
+    
+   
+}
+
+.welcome-img::before{
+  
+    top: 1000px;
+    width: 100%;  
+    margin-top: 100px;
+    background-image: url(images/Rectangle\ 4303.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   background-attachment: scroll;
+} */
+
+.section{
+    height: 800px;
+}
+.welcome-img{ 
+    
+width: 100%;
+height: 800px;  
+}
+ 
+.btn2{
+    
+     
+        color:  #FFFFFF;
+        top: 680px;
+    left: 250px;
+    width: 170px;
+    height: 60px;
+    background-color: #4BCAB1;
+    border: none;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    }
+    .btn2:hover{
+        box-shadow: inset 170px  0 0 0 #83f1db ;
+        color: white;
+    
+    }
+
+    /* .welcome-img::before{
+        position: relative;
+        top: 600px;
+    }
+    .palak{
+        position: absolute;
+    }
+    
+    .sub1{padding-left: 100px;
+       
+    }
+    .sub1 .P4{
+        font-size: 30px;
+        color: #40c1f8;
+    }
+    .sub2{
+        padding-left: 100px;
+        /* padding-top: 50px; */
+    /* }
+    .sub2 .p5{
+        margin-right: 70px;
+        padding-left: 10px;
+        border: 2px solid gray;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .sub-img{
+        border: 2px solid gray;
+        border-bottom: none;
+    }
+    .sub-img1{
+        border: 2px solid gray;
+        border-bottom: none;
+    } */
+
+    .About_us{
+        width: 100%;
+        background-image: url(../images/Rectangle-4303.png); 
+        background-position: center center; 
+        background-size: cover; 
+        background-attachment: fixed;
+    }
+    .section1{
+        padding-top: 100px;
+       
+    }
+    .p4{
+        font-size: 35px;
+        color: #40c1f8;
+    }
+    .p5{
+        padding-left: 10px;
+        border: 1px solid gray;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    .content_image{
+        display: flex;
+    }
+    .content_image img{
+        margin-top:30px;
+        padding: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+    }
+    .content_image .image1{
+        margin-right: 10px;
+    }
+    .Explore_our_service{
+       padding-bottom: 100px;
+    }
+    .explore{
+        text-align: center;
+        padding-top: 50px;
+        color: #40c1f8;
+        font-weight: 400;
+    }
+    .item{
+        margin-top: 70px;
+        padding: 40px;
+        background-color: #FFFFFF;
+
+    }
+    .carousel_heading{
+        text-align: center;
+    }
+    .carousel_P{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .carousel_image{
+        padding: 20px;
+        border: 1px solid #40c1f8;
+        margin: 0 auto;       
+    }
+    .heading{
+        padding: 60px;
+        text-align: center;
+        color: #00A8F0;
+        font-weight: 400;
+    }
+    .Meet_our_team{
+        position: relative;
+
+    }
+    .center-image{
+        position: absolute;
+        left: -20%;
+        top: 50%;
+        transform: translate(0,-50%);
+    }
+    .Home_care{
+        padding-top: 10px;
+        background-color: #e9d7d7;   
+    }
+    .people_image{
+      padding: 10px;
+    
+    }
+    .Eldery_care{
+           
+        background-image: url(images/iStock-1034254290.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .Eldery_care_image{
+        
+        padding-bottom: 70px;
+        padding-top: 130px;
+        padding-left: 190px;
+    }
+    .Eldery_care_caption{
+        color: white;
+        font-size: 33px;
+        font-weight: 300;
+        padding-left: 190px;
+        padding-top: 100;
+        padding-right: 100px;
+        padding-bottom: 100px;
+        /* padding: 100px; */
+    }
+
+
+
+
+
+   
+
+
+
+
