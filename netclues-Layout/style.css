@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.toggle {
+    display: none;
+}
+
+.main {
+
+    height: 148px;
+}
+
+.img {
+    width: 142px;
+    height: 98px;
+
+}
+
+.my-style ul li {
+    float: left;
+    display: inline;
+
+}
+
+.my-style a {
+    font-size: 16px;
+    display: inline;
+
+}
+
+.my-style img {
+    width: 41px;
+    height: 41px;
+}
+
+.my-style a:hover {
+    color: rgb(142, 207, 233);
+}
+
+/* .s1{
+    position: relative;
+    display: inline-block;
+} */
+.service {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    list-style: none;
+}
+
+.service:hover {
+    cursor: pointer;
+}
+
+.s1:hover .service {
+    display: block;
+
+}
+
+.offcanvas-body .nav-link:hover {
+    color: rgb(142, 207, 233);
+}
+
+.my-style2 {
+    padding-top: 20px;
+}
+
+.my-style2 img {
+    height: 30px;
+}
+
+.toggle button {
+    border: none;
+}
+
+.Banner {
+    position: relative;
+    padding-top: 148px;
+}
+
+.carousel-item .p2 {
+    position: absolute;
+    top: 440px;
+    left: 220px;
+    width: 591px;
+    height: 63px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.carousel-item img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    background-image: url(images/Rectangle\ 3839.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.carousel-item .p1 {
+
+    position: absolute;
+    top: 250px;
+    width: 700px;
+    left: 220px;
+    text-align: left;
+    font-size: 58px;
+    letter-spacing: -1.16px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.hover a .btn {
+    position: absolute;
+    color: #FFFFFF;
+    top: 580px;
+    left: 220px;
+    width: 170px;
+    height: 55px;
+    background-color: #00A8F0;
+    border: none;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.hover a .btn:hover {
+    box-shadow: inset 170px 0 0 0 #FFFFFF;
+    color: black;
+
+}
+
+/* .my-style2 p{
+    margin-left: 50px;
+} */
+
+
+
+
+@media screen and (max-width:1200px) {
+    .my-style a {
+        font-size: 13px;
+    }
+
+    .img {
+        width: 100px;
+        height: 80px;
+
+    }
+
+    .my-style1 img {
+        height: 40px;
+    }
+
+    .carousel-item .p1 {
+       
+       width: 600px;
+       top: 180px;
+       left: 70px;
+       font-size: 40px;
+
+    }
+
+    .carousel-item .p2 {
+        position: absolute;
+        top: 340px;
+        left: 70px;
+        
+        height: 40px;
+        text-align: left;
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .hover a .btn {
+        position: absolute;
+        color: #FFFFFF;
+        top: 450px;
+        left: 70px;
+        width: 170px;
+        height: 60px;
+        background-color: #00A8F0;
+        border: none;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .toggle {
+        display: flex;
+        float: left;
+    }
+
+    .my-style {
+        display: none;
+    }
+
+    .my-style1 div {
+        display: none;
+    }
+    .carousel-item .p1 {
+        width: 500px;
+        height: 0px;
+        position: absolute;
+        top: 170px;
+        left: 60px;
+        text-align: left;
+        font-size:300 35px;
+        letter-spacing: -1.16px;
+        color: #FFFFFF;
+        opacity: 1;
+
+    }
+
+    .carousel-item .p2 {
+        position: absolute;
+        top: 320px;
+        left: 60px;
+        width: 400px;
+        height: 40px;
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .hover a .btn {
+        position: absolute;
+        color: #FFFFFF;
+        top: 430px;
+        left: 60px;
+        width: 150px;
+        height: 50px;
+        background-color: #00A8F0;
+        border: none;
+        opacity: 1;
+        font-size: 13px;
+    }
+    
+
+
+
+}
+
+
+@media screen and (max-width:800px) {
+    .carousel-item .p1 {
+        width: 400px;
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        text-align: left;
+        font-size:300 35px;
+        letter-spacing: -1.16px;
+        color: #FFFFFF;
+        opacity: 1;
+        line-height: 50px;
+
+    }
+
+    .carousel-item .p2 {
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        width: 400px;
+        height: 40px;
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .hover a .btn {
+        position: absolute;
+        color: #FFFFFF;
+        top: 310px;
+        left: 20px;
+        width: 150px;
+        height: 50px;
+        background-color: #00A8F0;
+        border: none;
+        opacity: 1;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carousel-item .p1 {
+        width: 350px;
+        top: 60px;
+        left: 20px;
+        text-align: left;
+        font-size: 25px;
+        font-weight: 550;
+        letter-spacing: 0.10px;
+        color: #FFFFFF;
+        opacity: 1;
+        background-color: blue transparent;
+    }
+
+    .carousel-item .p2 {
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        width: 400px;
+        height: 40px;
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .hover a .btn {
+
+        top: 240px;
+        left: 20px;
+        width: 120px;
+        height: 45px;
+        background-color: #00A8F0;
+        border: none;
+        opacity: 1;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .carousel-item .p1 {
+        width: 70%;
+        font-size: 22px;
+        font-weight: 500;
+        top: 50px;
+    }
+
+    .carousel-item .p2 {
+        left: 20px;
+        width: 70%;
+        font-size: 15px;
+        top: 130px;
+
+    }
+
+    .hover a .btn {
+        top: 220px;
+        left: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #00A8F0;
+        border: none;
+        opacity: 1;
+        font-size: 10px;
+
+    }
+
+}
+
+/* .welcome{  
+    height: 1152px; 
+}
+.welcome-img{ 
+    width: 100%;
+    height: 600px;  
+    position: absolute;
+    top: 1190px;
+    background-image: url(images/Rectangle\ 4303.png);
+    background-repeat: no-repeat;
+    background-size: 1192px;
+    background-position: center center;
+    background-attachment: scroll;  
+}
+.welcome-img::before{
+  
+    top: 1000px;
+    width: 100%;  
+    margin-top: 100px;
+    background-image: url(images/Rectangle\ 4303.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   background-attachment: scroll;
+} */
+
+
+
+
+.btn2 {
+    position: relative;
+    color: #FFFFFF;
+    top: 30px;
+    width: 170px;
+    height: 60px;
+    background-color: #4BCAB1;
+    border: none;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.btn2:hover {
+    box-shadow: inset 170px 0 0 0 #83f1db;
+    color: white;
+
+}
+
+/* .welcome-img::before{
+        position: relative;
+        top: 600px;
+    }
+    .palak{
+        position: absolute;
+    }
+    
+    .sub1{padding-left: 100px;
+       
+    }
+    .sub1 .P4{
+        font-size: 30px;
+        color: #40c1f8;
+    }
+    .sub2{
+        padding-left: 100px;
+        /* padding-top: 50px; */
+/* }
+    .sub2 .p5{
+        margin-right: 70px;
+        padding-left: 10px;
+        border: 2px solid gray;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .sub-img{
+        border: 2px solid gray;
+        border-bottom: none;
+    }
+    .sub-img1{
+        border: 2px solid gray;
+        border-bottom: none;
+    } */
+
+.About_us {   
+    background-image:url(images/Mask\ Group\ 289.png),url(images/Rectangle-4303.png);
+    background-position: center center , center center;
+    background-size: cover, cover;
+    background-attachment: scroll , scroll;
+    
+}
+
+
+
+.section1 {
+    padding-top: 100px;
+}
+
+.p3{
+    color: rgb(87, 85, 85);
+    font-weight: 500;
+    letter-spacing: 0.70px;
+}
+
+.p4 {
+    letter-spacing: -0.96px;
+    line-height: 56px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #00A8F0;
+}
+
+.p5 {
+    line-height: 30px;
+    padding-left: 20px;
+    border: 2px solid rgb(228, 224, 224);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 18px;
+}
+
+.content_image {
+    display: flex;
+}
+
+.content_image img {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+
+.content_image .image1 {
+    margin-right: 10px;
+}
+
+.Explore_our_service {
+    padding-bottom: 100px;
+}
+
+.explore {
+    text-align: center;
+    padding-top: 50px;
+    color: #40c1f8;
+    font-weight: 400;
+}
+
+.item {
+   
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.carousel_heading {
+    color: rgb(58, 57, 57);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.carousel_P {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(87, 84, 84);
+}
+
+.carousel_image {
+    padding: 20px;
+    border: 1px solid #40c1f8;
+    margin: 0 auto;
+}
+
+.heading {
+    padding: 60px;
+    text-align: center;
+    color: #00A8F0;
+    font-weight: 400;
+}
+
+.Meet_our_team {
+    position: relative;
+
+}
+
+.center-image {
+    position: absolute;
+    left: -20%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.Home_care {
+    padding-top: 10px;
+    background-color: #e9d7d7;
+}
+
+.people_image {
+    padding: 10px;
+
+}
+
+.Eldery_care {
+
+    background-image: url(images/iStock-1034254290.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Eldery_care_image {
+
+    padding-bottom: 70px;
+    padding-top: 130px;
+    padding-left: 190px;
+}
+
+.Eldery_care_caption {
+    color: white;
+    font-size: 33px;
+    font-weight: 300;
+    padding-left: 190px;
+    padding-top: 100;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    /* padding: 100px; */
+}
